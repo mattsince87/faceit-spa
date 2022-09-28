@@ -18,6 +18,10 @@ const Button = styled.button`
     border: 1px solid ${theme.palette.secondary.dark};
     color: ${theme.palette.primary.dark};
   }
+
+  + button {
+    margin-left: 8px;
+  }
 `;
 
 export default Button;
